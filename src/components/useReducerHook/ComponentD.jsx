@@ -31,3 +31,5 @@ function ComponentD() {
 }
 
 export default ComponentD
+
+// fetching data with usestate and useeffect
