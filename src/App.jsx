@@ -3,6 +3,7 @@ import ComponentA from "./components/useContextHook/ComponentA"
 import ComponentB from "./components/useReducerHook/ComponentB"
 import ComponentC from "./components/useReducerHook/ComponentC"
 import ComponentD from "./components/useReducerHook/ComponentD"
+import ComponentE from "./components/useReducerHook/ComponentE"
 
 export const UserContext = React.createContext()
 export const CountContext = React.createContext()
@@ -35,6 +36,8 @@ function App() {
         </CountContext.Provider>
         <hr />
         <ComponentD />
+        <hr />
+        <ComponentE />
       </UserContext.Provider>
     </>
   )
